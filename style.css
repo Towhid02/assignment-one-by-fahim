@@ -5,7 +5,7 @@
 }
 .header{
     /* height: 80vh; */
-    width: 100%;
+    /* width: 100%; */
     background-color:rgba(229, 84, 115, 0.10) ;
     display: flex;
     text-align: center;
@@ -24,7 +24,7 @@
 
 }
 .header-title{
-    font-size: 50px;
+    font-size: 40px;
     padding-bottom: 10px;
     padding: 20px;
 }
@@ -53,18 +53,18 @@
     border: 2px solid black;
 }
 .header-photo{
-    width: 50%;
     
     text-align: center;
     margin-bottom: 0px;
 }
 .header-img{
     width: 500px;
-    height: 75vh;
+    /* height: 75vh; */
     margin-bottom: 0px;
 }
 
 .features{
+    background-color:snow;
     text-align: center;
     padding: 20px;
     margin: 20px;
@@ -177,7 +177,7 @@
 .instagram{
     text-align: center;
     width: 85%;
-    margin: 30px auto;
+    margin:  auto;
     padding: 20px;
 
 }
@@ -198,13 +198,13 @@
 }
 .insta-photo{
     border-radius: 10px;
-    width: 280px;
+    width: 200px;
     box-shadow: 5px 5px 8px rgba(97, 81, 81, 0.6) ;
 }
 
 .subscription{
     background-image: url("asset/Rectangle 9.png");
-    height: 30vh;
+    padding: 15px;
     background-position: center ;
     background-repeat: no-repeat;
     background-size: cover;
@@ -216,13 +216,13 @@
     border: none;
 }
 .subscription-title{
-    padding: 20px;
-    font-size: 35px;
+    padding: 10px;
+    font-size: 2em;
 }
 .subscription-para{
     font-size: 20px;
     color: rgba(97, 81, 81, 0.6);
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 }
 .email-button{
     display: flex;
@@ -243,7 +243,7 @@
 }
 
 footer{
-    height: 20vh;
+    
     background-color: #111010;
     text-align: center;
     color: white;
