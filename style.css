@@ -81,6 +81,7 @@
     width: 60%;
     margin: auto;
     color:rgba(39, 39, 39, 0.60);
+    padding-top: 15px;
 }
 .flower-trees{
     width: 80%;
@@ -132,12 +133,12 @@
     font-size: 20px;
     font-weight: bold;
     text-decoration: underline;
-    
+    padding-top: 15px;
 }
 
 .deliveries{
     background-color:rgba(39, 39, 39, 0.10);
-    width: 70%;
+    width: 80%;
     margin: auto;
     /* margin-left: 10%;
     margin-right: 10%; */
@@ -162,6 +163,7 @@
     padding: 50px;
     margin: 80px auto;
     border-radius: 8px;
+    
 }
 .deal-info{
     width: 60%;
@@ -202,10 +204,33 @@
     box-shadow: 5px 5px 8px rgba(97, 81, 81, 0.6) ;
 }
 
+.bouquet{
+    margin-top: 30px;
+    padding: 30px;
+    text-align: center;
+    background-color: antiquewhite;
+    margin-bottom: 20px;
+
+}
+.bouquet-photo{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 20px;
+    
+}
+.bouquet-img{
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px rgba(97, 81, 81, 0.6) ;
+}
 .subscription{
     background-image: url("asset/Rectangle 9.png");
-    padding: 15px;
-    background-position: center ;
+    padding: 20px;
+    /* background-position: center ; */
     background-repeat: no-repeat;
     background-size: cover;
     width: 1250px;
@@ -214,9 +239,9 @@
     text-align: center;
     align-items: center;
     border: none;
+    margin-top: 80px;
 }
 .subscription-title{
-    padding: 10px;
     font-size: 2em;
 }
 .subscription-para{
@@ -231,6 +256,7 @@
     justify-content: center;
     gap: 20px;
     margin: auto;
+    padding-bottom: 30px;
     
 }
 .email{
@@ -239,7 +265,6 @@
     padding: 20px;
     font-size: 20px;
     border-radius: 8px;
-
 }
 
 footer{
